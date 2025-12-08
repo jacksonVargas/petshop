@@ -53,7 +53,7 @@ export function Header() {
             onClick={() => setIsOpen(!isOpen)}
             className='md:hidden cursor-pointer hover:text-amber-500'
           >
-            {isOpen ? <X size={25} /> : <Menu size={25} />}
+            {isOpen ? <X size={30} /> : <Menu size={30} />}
           </button>
 
           {/* menu desktop */}
