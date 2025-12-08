@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+*{
+  scroll-behavior: smooth;
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange;
+}

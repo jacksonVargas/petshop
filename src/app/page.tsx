@@ -1,7 +1,19 @@
-export default function Home() {
+import { Header } from '@/components/header'
+import { Hero } from '@/components/hero'
+import { Services } from '@/components/services'
+import { About } from  '@/components/about'
+import { Contact } from '@/components/contact'
+import { Footer } from '@/components/footer'
+
+export default function App() {
   return (
-    <main>
-      <div>Hello world!</div>
-    </main>
-  );
+    <>
+      <Header />
+      <Hero />
+      <Services />
+      <About />
+      <Contact />
+      <Footer />
+    </>
+  )
 }
