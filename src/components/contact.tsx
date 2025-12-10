@@ -1,5 +1,5 @@
 import { Title } from '@/components/title'
-import { Form } from '@/components/form'
+import { Map } from '@/components/map'
 import { CardContact } from '@/types'
 import { MapPin, Phone, Mail, Clock } from 'lucide-react'
 
@@ -61,7 +61,7 @@ export function Contact() {
           </div>
 
           <div>
-            <Form />
+            <Map />
           </div>
         </div>
       </section>
