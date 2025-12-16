@@ -4,6 +4,16 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'PetLove',
+  description: 'A felicidade do seu pet é a nossa prioridade.',
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true
+    }
+  }
 }
 
 const font = Montserrat({ subsets: ['latin'] })
