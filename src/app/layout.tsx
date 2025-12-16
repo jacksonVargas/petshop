@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'PetLove',
     description: 'A felicidade do seu pet é a nossa prioridade.',
+    images: ['/preview.png'],
     type: 'website'
   }
 }
