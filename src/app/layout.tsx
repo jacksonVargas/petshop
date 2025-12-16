@@ -12,7 +12,12 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true
-    }
+    },
+  },
+  openGraph: {
+    title: 'PetLove',
+    description: 'A felicidade do seu pet é a nossa prioridade.',
+    type: 'website'
   }
 }
 
