@@ -3,6 +3,7 @@ import { Montserrat } from 'next/font/google'
 import './globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_URL!),
   title: 'PetLove',
   description: 'A felicidade do seu pet é a nossa prioridade.',
   robots: {
