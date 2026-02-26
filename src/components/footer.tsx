@@ -14,7 +14,7 @@ export function Footer() {
 
   return (
     <footer className='w-full px-5 bg-orange-50'>
-      <div className='max-w-5xl mx-auto py-10 grid grid-cols-1 gap-5'>
+      <div className='max-w-6xl mx-auto py-10 grid grid-cols-1 gap-5'>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
           {/* logo e redes sociais */}
           <div className='flex flex-col gap-3'>

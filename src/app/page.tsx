@@ -4,6 +4,7 @@ import { Services } from '@/components/services'
 import { About } from  '@/components/about'
 import { Contact } from '@/components/contact'
 import { Footer } from '@/components/footer'
+import { ButtonZap } from '@/components/button-zap'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <About />
       <Contact />
       <Footer />
+      <ButtonZap />
     </>
   )
 }

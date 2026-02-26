@@ -41,7 +41,7 @@ export function Header() {
   return (
     <>
       <header className='w-full px-5 sticky top-0 z-1 bg-white/70 backdrop-blur-md shadow-sm'>
-        <nav className='max-w-5xl mx-auto h-15 flex justify-between items-center'>
+        <nav className='max-w-6xl mx-auto h-13 flex justify-between items-center'>
           {/* logo */}
           <a href="#hero" className='flex items-center gap-1 transition-all duration-300 hover:scale-103'>
             <span className='w-10 h-10 rounded-full bg-amber-500 flex justify-center items-center text-white'><PawPrint /></span>

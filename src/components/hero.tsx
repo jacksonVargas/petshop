@@ -7,7 +7,7 @@ import hero03 from '@/assets/img-hero03.jpg'
 export function Hero() {
   return (
     <main className='w-full px-5 bg-orange-50'>
-      <section id='hero' className='max-w-5xl mx-auto py-20 min-h-screen flex justify-center items-center gap-8'>
+      <section id='hero' className='max-w-6xl mx-auto py-20 min-h-screen flex justify-center items-center gap-8'>
         {/* texto da hero */}
         <div className='flex flex-col items-center text-center md:items-start md:text-start md:flex-1 gap-5'>
           <span className='cursor-default bg-orange-200 text-orange-700 font-semibold uppercase py-2 px-3 rounded-full text-xs'>

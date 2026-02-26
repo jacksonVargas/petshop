@@ -34,7 +34,7 @@ export function Contact() {
 
   return (
     <main className='w-full px-5 bg-white'>
-      <section id='contact' className='max-w-5xl mx-auto py-20 grid grid-cols-1'>
+      <section id='contact' className='max-w-6xl mx-auto py-20 grid grid-cols-1'>
         <Title
           span='Contato'
           title='Entre em contato conosco'

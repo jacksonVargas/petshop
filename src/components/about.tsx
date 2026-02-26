@@ -24,7 +24,7 @@ export function About() {
 
   return (
     <main className='w-full px-5 bg-slate-100'>
-      <section id='about' className='max-w-5xl mx-auto py-20 grid grid-cols-1 lg:grid-cols-2 gap-8'>
+      <section id='about' className='max-w-6xl mx-auto py-20 grid grid-cols-1 lg:grid-cols-2 gap-8'>
         {/* imagem sobre */}
         <div>
           <Image

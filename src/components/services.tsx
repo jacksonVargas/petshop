@@ -44,7 +44,7 @@ export function Services() {
 
   return (
     <main className='w-full px-5 bg-white'>
-      <section id='services' className='max-w-5xl mx-auto py-20'>
+      <section id='services' className='max-w-6xl mx-auto py-20'>
         <Title 
           span='Nossos Serviços' 
           title='Tudo que seu pet precisa' 
