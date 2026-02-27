@@ -81,7 +81,7 @@ export function Footer() {
         <hr className='text-zinc-200' />
 
         <div className='text-center'>
-          <p className='text-sm text-zinc-500'>&copy; 2025 PetLove. Todos os direitos reservados.</p>
+          <p className='text-sm text-zinc-500'>&copy; {new Date().getFullYear()} PetLove. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
